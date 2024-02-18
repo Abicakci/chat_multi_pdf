@@ -20,7 +20,7 @@ Installation
 Pour installer et exécuter le Chatbot Langchain, suivez ces étapes :
 
 Clonez le dépôt
-git clone https://github.com/Abdullahw72/langchain-chatbot-multiple-PDF
+git clone https://github.com/Abicakci/chat_multi_pdf.git
 
 Créez un environnement virtuel
 pip install virtualenv
@@ -33,15 +33,11 @@ pip install -r requirements.txt
 Ajoutez votre clé OpenAI en créant un fichier .env dans le dossier et ajoutez ce qui suit :
 OPENAI_API_KEY="<votre clé>"
 
-Pour ceux d'entre vous qui souhaitent utiliser l'approche HuggingFace, assurez-vous d'ajouter la clé d'API HuggingFace dans votre fichier .env :
+Pour utiliser l'approche HuggingFace, aajouter la clé d'API HuggingFace dans votre fichier .env :
 HUGGINGFACEHUB_API_TOKEN="<votre clé>"
 
 Exécutez l'application
-
 streamlit run app.py
-Consultez les meilleurs modèles d'embedding : https://huggingface.co/blog/mteb
-
-Consultez les meilleurs LLMs : https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
 
 REMARQUE : Veuillez garder à l'esprit que vous devez vérifier les exigences matérielles pour le modèle que vous choisissez en fonction de votre machine, 
 car les embeddings et le modèle s'exécuteront localement sur votre système et seront chargés dans votre RAM. Assurez-vous de faire des recherches avant d'exécuter le code avec n'importe quel modèle choisi.
