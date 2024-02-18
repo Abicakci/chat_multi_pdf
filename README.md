@@ -50,3 +50,9 @@ Utilisation
 Téléchargez des documents PDF : Utilisez la barre latérale de l'application pour télécharger un ou plusieurs fichiers PDF.
 Posez des questions : Dans l'interface principale du chat, saisissez vos questions relatives au contenu des PDF téléchargés.
 Recevez des réponses : Le chatbot générera des réponses en fonction des informations extraites des PDF.
+
+
+# Architecture
+
+![image](https://github.com/Abicakci/chat_multi_pdf/assets/121668685/3118c73d-e437-4037-8312-5ae7a2f9c592)
+
